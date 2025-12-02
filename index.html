@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDGC Member Showcase | VIT Bhopal University</title>
+  <meta name="description" content="Discover the talented team members of Google Developer Groups on Campus at VIT Bhopal University.">
+  <meta name="keywords" content="GDGC, Google Developer Groups, VIT Bhopal, developers, community, tech">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="GDGC Member Showcase | VIT Bhopal University">
+  <meta property="og:description" content="Meet the talented developers and innovators of GDGC VIT Bhopal University">
+  <meta property="og:type" content="website">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div id="splash-screen" class="splash-screen">
+    <div class="splash-dots">
+      <div class="splash-dot"></div>
+      <div class="splash-dot"></div>
+      <div class="splash-dot"></div>
+      <div class="splash-dot"></div>
+    </div>
+    <h1 class="splash-title">GDGC VIT Bhopal</h1>
+    <p class="splash-subtitle">Member Showcase</p>
+  </div>
+
+  <!-- Main App -->
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <div class="logo">
+          <div class="logo-dots">
+            <div class="logo-dot" style="background: #4285f4;"></div>
+            <div class="logo-dot" style="background: #ea4335;"></div>
+            <div class="logo-dot" style="background: #fbbc04;"></div>
+            <div class="logo-dot" style="background: #34a853;"></div>
+          </div>
+          <span class="logo-text">GDGC <span>VIT Bhopal</span></span>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"></button>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Meet Our <span class="gradient-text">Team Members</span></h1>
+        <p>Discover the talented individuals who make up the Google Developer Groups on Campus at VIT Bhopal University.</p>
+      </section>
+
+      <!-- Search and Filters -->
+      <div class="filters">
+        <div class="search-wrapper">
+          <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="search-input" class="search-input" placeholder="Search members by name or bio...">
+        </div>
+        <select id="role-filter" class="filter-select"></select>
+        <select id="skill-filter" class="filter-select"></select>
+        <select id="location-filter" class="filter-select"></select>
+        <button id="clear-btn" class="clear-btn hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          Clear
+        </button>
+      </div>
+
+      <!-- Results Count -->
+      <p id="results-count" class="results-count"></p>
+
+      <!-- Member Grid -->
+      <div id="member-grid" class="member-grid"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-dots">
+        <div class="footer-dot" style="background: #4285f4;"></div>
+        <div class="footer-dot" style="background: #ea4335;"></div>
+        <div class="footer-dot" style="background: #fbbc04;"></div>
+        <div class="footer-dot" style="background: #34a853;"></div>
+      </div>
+      <p>© 2025 GDGC VIT Bhopal University. Built with ❤️</p>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
