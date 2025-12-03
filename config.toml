@@ -1,0 +1,7 @@
+project_id = "steqvsxghpruxdhbasxv"
+
+[functions.members]
+verify_jwt = false
+
+[functions.members-by-id]
+verify_jwt = false
